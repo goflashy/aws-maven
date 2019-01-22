@@ -7,7 +7,7 @@
     <groupId>com.github.platform-team</groupId>
     <artifactId>aws-maven</artifactId>
     <packaging>jar</packaging>
-    <version>6.0.0</version>
+    <version>6.1.0</version>
     <name>Amazon Web Services S3 Maven Wagon Support</name>
     <description>Standard Maven wagon support for s3:// urls</description>
 
@@ -73,6 +73,11 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
             <version>3.7</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+            <version>2.4.0-b180830.0438</version>
         </dependency>
 
         <dependency>
